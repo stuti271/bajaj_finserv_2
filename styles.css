@@ -1,0 +1,41 @@
+/* Custom CSS styles */
+
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  #searchInput {
+    margin-bottom: 10px;
+    padding: 5px;
+    width: 200px;
+  }
+  
+  #filterSelect {
+    padding: 5px;
+    margin-left: 10px;
+  }
+  
+  #employeeTable {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  #employeeTable th,
+  #employeeTable td {
+    padding: 8px;
+    border: 1px solid #ddd;
+    text-align: left;
+  }
+  
+  #employeeTable th {
+    background-color: #f5f5f5;
+    font-weight: bold;
+  }
+  
+  

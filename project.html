@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Employee Data</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <h1>Employee Data</h1>
+
+  <input type="text" id="searchInput" placeholder="Search by name">
+  <select id="filterSelect">
+    <option value="">All</option>
+    <option value="Developer">Developer</option>
+    <option value="Senior Developer">Senior Developer</option>
+    <option value="Designer">Designer</option>
+    <option value="Tester">Tester</option>
+    <option value="QA Engineer">QA Engineer</option>
+    <option value="Project Manager">Project Manager</option>
+  </select>
+  <div class="filter-container">
+    <label>Skills Filter:</label>
+    <div id="skillsFilter">
+      <input type="checkbox" id="sqlCheckbox" value="SQL">
+      <label for="sqlCheckbox">SQL</label>
+      <input type="checkbox" id="javascriptCheckbox" value="Javascript">
+      <label for="javascriptCheckbox">Javascript</label>
+      <input type="checkbox" id="pythonCheckbox" value="Python">
+      <label for="pythonCheckbox">Python</label>
+      <input type="checkbox" id="htmlCheckbox" value="HTML">
+      <label for="htmlCheckbox">HTML</label>
+      <input type="checkbox" id="cssCheckbox" value="CSS">
+      <label for="cssCheckbox">CSS</label>
+      <input type="checkbox" id="photoshopCheckbox" value="Photoshop">
+      <label for="photoshopCheckbox">Photoshop</label>
+      <input type="checkbox" id="manualTestingCheckbox" value="Manual Testing">
+      <label for="manualTestingCheckbox">Manual Testing</label>
+      <input type="checkbox" id="javaCheckbox" value="Java">
+      <label for="javaCheckbox">Java</label>
+    </div>
+  </div>
+
+  <input type="text" id="searchInput" placeholder="Search">
+
+  <ul id="employeeList"></ul>
+   
+
+  <table id="employeeTable">
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Designation</th>
+        <th>Skills</th>
+      </tr>
+    </thead>
+    <tbody>
+      <!-- Employee data will be dynamically added here -->
+    </tbody>
+  </table>
+
+  <script src="script.js"></script>
+  
+</body>
+</html>
